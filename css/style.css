@@ -8,11 +8,11 @@ Copyright 2013, Josh Cope
    ========================================================================== */
 nav li
 {
- display:inline;	
+ 	display:inline;	
 }
 article
 {
- outline:1px red solid;
+ 	outline:1px red solid;
 }
 img
 {
@@ -20,7 +20,15 @@ img
 }
 aside
 {
- outline:1px red solid;
+ 	outline:1px red solid;
+}
+form
+{
+	outline: 1px red solid;
+}
+h2
+{ 
+	text-align:center;
 }
 
 /* =============================================================================
