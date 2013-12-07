@@ -6,6 +6,11 @@ Copyright 2013, Josh Cope
 /* =============================================================================
    Site Styles
    ========================================================================== */
+nav li
+{
+display: inline-block;
+	
+}
 body
 {
 background:url(../analyisis/image/purty_wood%20.png);
