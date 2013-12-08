@@ -6,35 +6,27 @@ Copyright 2013, Josh Cope
 /* =============================================================================
    Site Styles
    ========================================================================== */
-.container
-{
- 	background: #993;
-	
-}
-
 nav li
 {
-	display:inline;
+ 	display:inline;	
 }
-
 article
 {
- 	
+ 	outline:1px red solid;
 }
-
+img
+{
+	max-width:100%;
+}
 aside
 {
- 	
+ 	outline:1px red solid;
 }
 form
 {
-	
+	outline: 1px red solid;
 }
 h2
-{ 
-	text-align:center;
-}
-h1
 { 
 	text-align:center;
 }
@@ -42,11 +34,6 @@ h1
 /* =============================================================================
    Page Styles
    ========================================================================== */
-
-/*======================================================================
-	Gallery
-=====================================================================*/   
-
 html, body{
 margin:0;
 padding:0;
@@ -54,7 +41,7 @@ height:100%;
 background:url(images/fon.png);
 }
 
-/*.blog{
+.blog{
 position:absolute;
 top:5px;
 left:5px;
@@ -65,19 +52,18 @@ font-size:14px;
 color:#333;
 display:inline-block;
 border:none;
-overflow: auto;
-}*/
+overflow:hidden;
+}
 
 :focus{
 outline:none;
 }
 
 .gallery{
-margin:auto;
+margin:20px auto;
 width:900px;
 height:640px;
-position: relative;
-background:url(../images/purty.png)
+position:relative;
 }
 
 
@@ -93,7 +79,7 @@ box-sizing:border-box;
 }
 
 a img{
-display: inline-block;
+display:block;
 width:100%;
 height:100%;
 -webkit-transition-property:width, height, top, bottom, left, right, z-index;
@@ -179,15 +165,15 @@ z-index:25;
 
 
 a:focus:nth-child(4n+1) img{
-left:300px;
+left:150px;
 }
 
 a:focus:nth-child(4n+2) img{
-left:-100px;
+left:-50px;
 }
 
 a:focus:nth-child(4n+3) img{
-left:-400px;
+left:-250px;
 }
 
 a:focus:nth-child(4n+4) img{
@@ -195,7 +181,7 @@ left:-460px;
 }
 
 a:focus:nth-child(-n+4) img{
-top:300px;
+top:140px;
 }
 
 a:focus:nth-child(n+9) img{
