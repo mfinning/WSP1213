@@ -6,46 +6,32 @@ Copyright 2013, Josh Cope
 /* =============================================================================
    Site Styles
    ========================================================================== */
-.container
-{
- background-image:url(../images/purty.png)
-	
-}
-
-
 nav li
-
 {
-display: inline;
-
-font-family:Tahoma, Geneva, sans-serif;
-font-size:1.5em;
-	
+ 	display:inline;	
 }
-
 article
 {
-	background-image: url(../images/purty.png);
-	border:groove;
-	
+ 	
 }
 
 aside
 {
-	background-color:#996;
-	border: 3px outset;	
+ 	
 }
 form
 {
-border: 5px groove;
-}
-header
-{ background-color:#996;
- 	
-}
-h2{text-align:center;
-
 	
+}
+h2
+{ 
+	text-align:center;
+}
+h1
+{ 
+	text-align:center;
+}
+
 /* =============================================================================
    Page Styles
    ========================================================================== */
@@ -58,7 +44,7 @@ html, body{
 margin:0;
 padding:0;
 height:100%;
-background:url(images/fon.png)
+background:url(images/fon.png);
 }
 
 .blog{
