@@ -6,18 +6,22 @@ Copyright 2013, Josh Cope
 /* =============================================================================
    Site Styles
    ========================================================================== */
+.container
+{
+ 	background:repeat url(../images/texture48.jpg)
+	
+}
+
 nav li
 {
- 	display:inline;	
+	display:inline;
 }
+
 article
 {
  	
 }
-img
-{
-	max-width:100%;
-}
+
 aside
 {
  	
@@ -38,11 +42,11 @@ h1
 /* =============================================================================
    Page Styles
    ========================================================================== */
-   
-   
+
 /*======================================================================
 	Gallery
 =====================================================================*/   
+
 html, body{
 margin:0;
 padding:0;
@@ -50,7 +54,7 @@ height:100%;
 background:url(images/fon.png);
 }
 
-.blog{
+/*.blog{
 position:absolute;
 top:5px;
 left:5px;
@@ -61,18 +65,19 @@ font-size:14px;
 color:#333;
 display:inline-block;
 border:none;
-overflow:hidden;
-}
+overflow: auto;
+}*/
 
 :focus{
 outline:none;
 }
 
 .gallery{
-margin:20px auto;
+margin:auto;
 width:900px;
 height:640px;
-position:relative;
+position: relative;
+background:url(../images/purty.png)
 }
 
 
@@ -88,7 +93,7 @@ box-sizing:border-box;
 }
 
 a img{
-display:block;
+display: inline-block;
 width:100%;
 height:100%;
 -webkit-transition-property:width, height, top, bottom, left, right, z-index;
