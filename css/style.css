@@ -7,6 +7,14 @@ Copyright 2013, Josh Cope
    Site Styles
    ========================================================================== */
 nav li
+<<<<<<< HEAD
+=======
+{
+display: inline-block;
+	
+}
+body
+>>>>>>> b7105629fb9760934ebfe8a315699c0d7d4dcd46
 {
  	display:inline;	
 }
