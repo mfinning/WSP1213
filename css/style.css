@@ -6,6 +6,7 @@ Copyright 2013, Josh Cope
 /* =============================================================================
    Site Styles
    ========================================================================== */
+<<<<<<< HEAD
 .container
 {
 	
@@ -17,12 +18,20 @@ nav li
 {
  	display:inline;	
 	background:#093;
+=======
+nav li
+{
+ 	display:inline;	
+>>>>>>> parent of a0e9501... messedup
 }
 article
 {
  	
 }
-
+img
+{
+	max-width:100%;
+}
 aside
 {
  	
