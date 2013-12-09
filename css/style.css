@@ -39,6 +39,11 @@ h1
  {
 	 background-image: url(../images/purty_wood.png)
  }
+ .mont
+ {
+	 background-color:rgb(176,147,68);
+	 border-style:5px double;
+ }
  
    
 /*======================================================================
